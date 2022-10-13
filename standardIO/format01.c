@@ -1,6 +1,7 @@
 #include <stdio.h>
 
-int main(void) {
+int main(void)
+{
     printf("%d\n", 1234); // 1234
     printf("%d, %d\n", 1234, -5678); // 1234, -5678
 

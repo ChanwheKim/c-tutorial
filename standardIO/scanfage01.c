@@ -10,7 +10,7 @@ int main(void)
     scanf("%d", &nAge);
 
     // 이름 중간에 빈 공백이 있어도 문제없이 입력할 수 있다.
-    printf("이름을 입력하세요. : ");
+    printf("이름을 입력하세요. :");
     fflush(stdin);
     fgets(szName, sizeof(szName), stdin);
 
